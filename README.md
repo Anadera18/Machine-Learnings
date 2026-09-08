@@ -1,2 +1,2 @@
 # Machine-Learnings
-Record of college study of Machine Learning
+Record of my college study about Machine Learning

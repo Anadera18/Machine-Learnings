@@ -1,0 +1,25 @@
+Distance Metric,Number of Data/Dimensions,Data Points,Dimensions,Algorithm,Build Time (s),Query Time (ms),Recall@10 (%),Summary
+Euclidean,"1,000/2D",1000,2D,ANNOY,0.0056,0.0224,99.8,Build: 0.01s | Query: 0.022ms | Recall: 99.8%
+Euclidean,"1,000/2D",1000,2D,FAISS,0.0024,0.003,100.0,Build: 0.00s | Query: 0.003ms | Recall: 100.0%
+Euclidean,"1,000/2D",1000,2D,HNSW,0.0055,0.0212,100.0,Build: 0.01s | Query: 0.021ms | Recall: 100.0%
+Euclidean,"1,000/5D",1000,5D,ANNOY,0.0051,0.02,96.9,Build: 0.01s | Query: 0.020ms | Recall: 96.9%
+Euclidean,"1,000/5D",1000,5D,FAISS,0.0009,0.0025,99.9,Build: 0.00s | Query: 0.002ms | Recall: 99.9%
+Euclidean,"1,000/5D",1000,5D,HNSW,0.0048,0.0205,100.0,Build: 0.00s | Query: 0.021ms | Recall: 100.0%
+Euclidean,"1,000,000/2D",1000000,2D,ANNOY,3.1708,0.0417,99.7,Build: 3.17s | Query: 0.042ms | Recall: 99.7%
+Euclidean,"1,000,000/2D",1000000,2D,FAISS,0.5796,0.0226,100.0,Build: 0.58s | Query: 0.023ms | Recall: 100.0%
+Euclidean,"1,000,000/2D",1000000,2D,HNSW,4.1339,0.0249,100.0,Build: 4.13s | Query: 0.025ms | Recall: 100.0%
+Euclidean,"1,000,000/5D",1000000,5D,ANNOY,2.8547,0.0404,96.3,Build: 2.85s | Query: 0.040ms | Recall: 96.3%
+Euclidean,"1,000,000/5D",1000000,5D,FAISS,0.6762,0.0257,100.0,Build: 0.68s | Query: 0.026ms | Recall: 100.0%
+Euclidean,"1,000,000/5D",1000000,5D,HNSW,7.1225,0.0364,100.0,Build: 7.12s | Query: 0.036ms | Recall: 100.0%
+Cosine,"1,000/2D",1000,2D,ANNOY,0.0075,0.028,99.8,Build: 0.01s | Query: 0.028ms | Recall: 99.8%
+Cosine,"1,000/2D",1000,2D,FAISS,0.0012,0.0044,100.0,Build: 0.00s | Query: 0.004ms | Recall: 100.0%
+Cosine,"1,000/2D",1000,2D,HNSW,0.0049,0.0269,100.0,Build: 0.00s | Query: 0.027ms | Recall: 100.0%
+Cosine,"1,000/5D",1000,5D,ANNOY,0.0064,0.0212,97.4,Build: 0.01s | Query: 0.021ms | Recall: 97.4%
+Cosine,"1,000/5D",1000,5D,FAISS,0.0011,0.002,100.0,Build: 0.00s | Query: 0.002ms | Recall: 100.0%
+Cosine,"1,000/5D",1000,5D,HNSW,0.006,0.0245,100.0,Build: 0.01s | Query: 0.025ms | Recall: 100.0%
+Cosine,"1,000,000/2D",1000000,2D,ANNOY,8.0848,0.0415,4.1,Build: 8.08s | Query: 0.042ms | Recall: 4.1%
+Cosine,"1,000,000/2D",1000000,2D,FAISS,0.2783,0.0112,98.4,Build: 0.28s | Query: 0.011ms | Recall: 98.4%
+Cosine,"1,000,000/2D",1000000,2D,HNSW,7.6498,0.0234,35.5,Build: 7.65s | Query: 0.023ms | Recall: 35.5%
+Cosine,"1,000,000/5D",1000000,5D,ANNOY,3.2601,0.0361,96.6,Build: 3.26s | Query: 0.036ms | Recall: 96.6%
+Cosine,"1,000,000/5D",1000000,5D,FAISS,0.4168,0.0253,100.0,Build: 0.42s | Query: 0.025ms | Recall: 100.0%
+Cosine,"1,000,000/5D",1000000,5D,HNSW,5.6882,0.0236,100.0,Build: 5.69s | Query: 0.024ms | Recall: 100.0%
